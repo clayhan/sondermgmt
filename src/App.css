@@ -21,26 +21,48 @@ body {
 }
 
 .contact-button {
+  display: inline-block; 
   font-family: "Source Sans Pro", sans-serif;
-  background-color: #A8A6A1;
+  background-color: black;
   border: none;
-  width: 175px;
+  width: 150px;
+  height: 25px;
   color: white;
   font-size: 20px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 16px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
   margin-top: 15px;
-  /* fontWeight: "800"; */
-  padding: 20px;
+  padding: 10px;
   border-radius: 2px;
   cursor: pointer;
+  text-decoration: none;
 }
 
-/* .content-wrapper {
+.content-wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-} */
+  height: 100vh;
+}
 
-/* #A8A6A1 */
+@media only screen and (max-width: 768px) {
+  .contact-button {
+    margin-left: 175px;
+    margin-top: 100px;
+  }
+}
 
+@media only screen and (min-width: 768px) {
+  .logo {
+    margin-bottom: 200px;
+  }
 
+  .contact-button {
+    margin: 0 0 0 500px;
+  }
+}
+
+.logo {
+  width: 300px;
+  height: 40px;
+}

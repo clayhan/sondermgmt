@@ -6,11 +6,13 @@ function App() {
   return (
     <div className="App">
       <div className="content-wrapper">
-        <img src={logo} alt="Logo" />
-        <button className="contact-button">Get in touch</button>
+        <img className="logo" src={logo} alt="Logo" />
+        <a className="contact-button" href="mailto:contact@sondermgmt.co">Get in touch</a>
       </div>
     </div>
   );
 }
+
+// contact@sondermgmt.com
 
 export default App;
