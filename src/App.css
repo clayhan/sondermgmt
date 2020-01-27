@@ -55,10 +55,11 @@ body {
 @media only screen and (min-width: 768px) {
   .logo {
     margin-bottom: 200px;
+    margin-right: 125px;
   }
 
   .contact-button {
-    margin: 0 0 0 500px;
+    margin: 0 0 0 425px;
   }
 }
 
