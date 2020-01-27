@@ -22,13 +22,13 @@ body {
 
 .contact-button {
   display: inline-block; 
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: sans-serif, "Source Sans Pro";
   background-color: black;
   border: none;
-  width: 150px;
-  height: 25px;
+  width: 86px;
+  height: 17px;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 16px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
   margin-top: 15px;
   padding: 10px;
